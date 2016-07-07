@@ -1,5 +1,12 @@
 # Sketch-to-VR
-Turn your mocks into VR
+
+It works on a Sketch file like this
+
+![alt tag](https://raw.githubusercontent.com/auxdesigner/Sketch-to-VR/master/_mock.png)
+
+And turns it into VR like this
+
+![alt tag](https://github.com/auxdesigner/Sketch-to-VR/raw/master/_vr.gif)
 
 Demo: https://www.youtube.com/watch?v=lJ7aFtqsAUU
 
