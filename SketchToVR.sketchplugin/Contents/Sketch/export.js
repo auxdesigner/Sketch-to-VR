@@ -2,6 +2,9 @@
 // import sandbox for authorization
 @import 'sandbox.js'
 
+// In the new folder structure, the plugin won't work without this line. I don't know why the previous version didn't need this. 
+var doc = NSDocumentController.sharedDocumentController().currentDocument();
+
 // open the system dialog to choose the export location
 var fileURL = fileSaver();
 

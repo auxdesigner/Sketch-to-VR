@@ -1,0 +1,15 @@
+{
+    "name" : "Sketch To VR",
+    "identifier" : "com.liuliu.sketch2vr",
+    "version" : "2.0.0",
+    "description" : "Turn your Mocks into VR. ",
+    "authorEmail" : "liuxliu@google.com",
+    "author" : "Liu Liu",
+    "commands" : [
+    {
+      "script" : "export.js",
+      "name" : "Export",
+      "identifier" : "export"
+    }
+  ]
+}
