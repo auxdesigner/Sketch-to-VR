@@ -12,10 +12,8 @@ Demo: https://www.youtube.com/watch?v=lJ7aFtqsAUU
 
 
 ##Installation: 
-1. Download Zip and Extract it. There’s a demo sketch file and a Sketch To VR folder.
-2. In Sketch app, go to Plugins > Manage Plugins…
-3. In the opened window, click on the bottom left gear icon, and select Show Plugins Folder from the dropdown.
-4. Place the Sketch To VR folder directly in the Plugins folder.
+1. Download Zip and Extract it. There’s a demo sketch file and a SketchToVR.sketchplugin.
+2. Double click on SketchToVR.sketchplugin. Sketch will install the plugin.
 
 ##Export your mocks with the plugin 
 1. Open the demo Sketch file. The “background” artboard is a 360° photo. The “ui” artboard is the interface on top of the photo. In order to be seamless, the 360° photo you use should be [equirectangular](https://en.wikipedia.org/wiki/Equirectangular_projection). There are some examples on [Flickr](https://www.flickr.com/groups/equirectangular/). The one in my file is from [Nick Hobgood](https://www.flickr.com/photos/globalvoyager/27869867466/).
