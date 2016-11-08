@@ -120,7 +120,10 @@ function copy_layer_with_factor(original_slice, factor){
     var copySlice = [original_slice duplicate];
     var frame = [copySlice frame];
     var rect = [copySlice absoluteInfluenceRect],
-    slice = [MSExportRequest requestWithRect:rect scale:factor];
+    // slice = [MSExportRequest requestWithRect:rect scale:factor];
+    slice = MSExportRequest.new();
+    slice.rect = rect;
+    slice.scale = factor;
     [copySlice removeFromParent];
     //log("Slicing " + slice);
     return slice;
